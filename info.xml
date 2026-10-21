@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<libros>
+    <libro>
+        <titulo>Don Quijote</titulo>
+        <autor>Cervantes</autor>
+    </libro>
+    <libro>
+        <titulo>La Celestina</titulo>
+        <autor>Fernando de Rojas</autor>
+    </libro>
+</libros>
