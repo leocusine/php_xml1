@@ -1,8 +1,7 @@
 <?php
 header("Content-Type: application/xml; charset=UTF-8");
 
-$xml = file_get_contents("info.xml");
-$exit = new SimpleXMLElement($xml);
+$read = file_get_contents("pizza.xml");
+$xml = new SimpleXMLElement($read);
 
-echo $exit->asXML();
-?>
+echo $xml->asXML();

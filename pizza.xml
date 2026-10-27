@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzeria>
+    <!-- Información General del Negocio -->
+    <datos_negocio>
+        <nombre>Pizzería Bella Italia</nombre>
+        <direccion>Calle Principal 123, Barcelona</direccion>
+        <telefono>+34 931 234 567</telefono>
+        <horario>
+            <apertura>13:00</apertura>
+            <cierre>23:30</cierre>
+        </horario>
+    </datos_negocio>
+
+    <!-- Menú de la Pizzería -->
+    <menu>
+        <!-- Categoría de Pizzas -->
+        <categoria nombre="Pizzas Tradicionales">
+            <producto id="p001" disponible="true">
+                <nombre>Margherita</nombre>
+                <descripcion>Salsa de tomate, mozzarella fresca y albahaca.</descripcion>
+                <precio moneda="EUR">8.50</precio>
+                <ingredientes>
+                    <ingrediente>Tomate</ingrediente>
+                    <ingrediente>Mozzarella</ingrediente>
+                    <ingrediente>Albahaca</ingrediente>
+                </ingredientes>
+                <alergenos>
+                    <alergeno>Gluten</alergeno>
+                    <alergeno>Lácteos</alergeno>
+                </alergenos>
+            </producto>
+
+            <producto id="p002" disponible="true">
+                <nombre>Cuatro Quesos</nombre>
+                <descripcion>Mozzarella, gorgonzola, parmesano y fontina.</descripcion>
+                <precio moneda="EUR">11.90</precio>
+                <ingredientes>
+                    <ingrediente>Mozzarella</ingrediente>
+                    <ingrediente>Gorgonzola</ingrediente>
+                    <ingrediente>Parmesano</ingrediente>
+                    <ingrediente>Fontina</ingrediente>
+                </ingredientes>
+                <alergenos>
+                    <alergeno>Gluten</alergeno>
+                    <alergeno>Lácteos</alergeno>
+                </alergenos>
+            </producto>
+        </categoria>
+
+        <!-- Categoría de Bebidas -->
+        <categoria nombre="Bebidas">
+            <producto id="b001" disponible="true">
+                <nombre>Refresco de Cola</nombre>
+                <tamano>330ml</tamano>
+                <precio moneda="EUR">2.50</precio>
+                <alergenos/>
+            </producto>
+        </categoria>
+    </menu>
+
+    <!-- Gestión del Local / Mesas -->
+    <distribucion_mesas>
+        <mesa numero="1" capacidad="2" estado="ocupada" />
+        <mesa numero="2" capacidad="4" estado="libre" />
+        <mesa numero="3" capacidad="6" estado="reservada" />
+    </distribucion_mesas>
+
+    <!-- Registro de Pedidos Activos -->
+    <pedidos_activos>
+        <pedido id="ped-2026-001" tipo="domicilio">
+            <cliente>
+                <nombre>Carlos García</nombre>
+                <telefono>600 123 456</telefono>
+                <direccion_entrega>Av. Diagonal 456, 2º 1ª</direccion_entrega>
+            </cliente>
+            <items>
+                <item ref_producto="p001" cantidad="2" notas="Una de ellas bien tostada" />
+                <item ref_producto="b001" cantidad="2" />
+            </items>
+            <total moneda="EUR">19.50</total>
+            <estado_pago>pagado</estado_pago>
+            <estado_entrega>en cocina</estado_entrega>
+        </pedido>
+    </pedidos_activos>
+</pizzeria>
