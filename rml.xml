@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<riskModesList>
+    <mode rank="1">
+        <game>UCN Deluxe</game>
+        <title>Hopeless Pursuit</title>
+        <image>img/hp.jpg</image>
+        <stats>
+            <hours>+140</hours>
+            <attempts>+9104</attempts>
+        </stats>
+        <description>The hardest challenge of UCN DELUXE, a super buffed version of 50/20 no death coin that pushes your skills to their limits.</description>
+        <tags>
+            <tag>speed</tag>
+            <tag>aim</tag>
+            <tag>keyboard</tag>
+            <tag>endurance</tag>
+        </tags>
+    </mode>
+
+    <mode rank="2">
+        <game>Geometry Dash</game>
+        <title>Bloodbath in two runs</title>
+        <image>img/bb.png</image>
+        <stats>
+            <attempts>+50000</attempts>
+        </stats>
+        <description>The most popular former top 1 level of Geometry Dash, one of the biggest collab levels and predecessor of Bloodlust.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>keyboard</tag>
+        </tags>
+    </mode>
+
+    <mode rank="3">
+        <game>Sister Location Super Custom Night</game>
+        <title>Perfect Golden Freddy half oxygen</title>
+        <image>img/ho.jpeg</image>
+        <stats>
+            <hours>~25</hours>
+        </stats>
+        <description>Perfect Golden Freddy but getting jumpescared by Perfect Phantom Foxy, making you play with half of your oxygen, which makes your gameplay look way darker and makes oxygen management way more crucial.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>brain</tag>
+            <tag>keyboard</tag>
+        </tags>
+    </mode>
+
+    <mode rank="4">
+        <game>Sister Location Super Custom Night</game>
+        <title>Perfect Golden Freddy</title>
+        <image>img/9vJwwTOJQfA_1280x720.jpg</image>
+        <stats>
+            <hours>~14</hours>
+        </stats>
+        <description>Super Golden Freddy with the Perfect Mode challenge enabled, tests the limits of your skillsets and tries to reach perfection, but it's not quite there.</description>
+        <tags>
+            <tag>speed</tag>
+            <tag>brain</tag>
+            <tag>keyboard</tag>
+        </tags>
+    </mode>
+
+    <mode rank="5">
+        <game>Sister Location Super Custom Night</game>
+        <title>Golden Freddy true perfect mode</title>
+        <image>img/tpgf.jpeg</image>
+        <stats>
+            <hours>~10</hours>
+        </stats>
+        <description>The Golden Freddy preset but with True Perfect mode enabled. Changes characters mechanics and is overall harder due to the speed required and that the game gives you less power than needed.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>brain</tag>
+            <tag>keyboard</tag>
+        </tags>
+    </mode>
+
+    <mode rank="6">
+        <game>Sister Location Custom Night</game>
+        <title>Funtime Gala very hard mode 5:56</title>
+        <image>img/fgvhm.jpeg</image>
+        <stats>
+            <hours>~30</hours>
+        </stats>
+        <description>Funtime Gala with the very hard mode enabled, alternig some characters' mechanics and making the overall gameplay more tighter powerwise.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>brain</tag>
+            <tag>keyboard</tag>
+        </tags>
+    </mode>
+
+    <mode rank="7">
+        <game>Sister Location Super Custom Night</game>
+        <title>There's a robot kidnapped in my vent all challenges</title>
+        <image>img/fCwf22YoAGU_1280x720.jpg</image>
+        <stats>
+            <hours>~10</hours>
+        </stats>
+        <description>Hyper Golden Freddy all challenges but not closing the top vent door, since you can avoid Bidybab jumpescaring you by not checking the cameras on 2 second intervals, which makes Nightmare Chica more rng dependent and the overall gameplay way tighter.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>brain</tag>
+            <tag>keyboard</tag>
+            <tag>endurance</tag>
+        </tags>
+    </mode>
+
+    <mode rank="8">
+        <game>UCN Deluxe</game>
+        <title>50/20 long nights all death coin routes</title>
+        <image>img/Captura_de_pantalla_2026-09-10_204854.png</image>
+        <stats>
+            <hours>~7</hours>
+        </stats>
+        <description>50/20 mode from UCN DELUXE with the long nights challenge enabled but you have to complete the night 7 times, with each time buying the death coin for a different purpose.</description>
+        <tags>
+            <tag>speed</tag>
+            <tag>aim</tag>
+            <tag>keyboard</tag>
+            <tag>endurance</tag>
+        </tags>
+    </mode>
+
+    <mode rank="9">
+        <game>UCN Deluxe</game>
+        <title>Pure Greed</title>
+        <image>img/8Sstq-LWYL0_640x480.jpg</image>
+        <stats>
+            <hours>~5</hours>
+        </stats>
+        <description>50/20 mode from UCN DELUXE but with the death coin bought but not used and the coin cap of 99 coins reached at 6 am.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>aim</tag>
+            <tag>keyboard</tag>
+        </tags>
+    </mode>
+
+    <mode rank="10">
+        <games>
+            <game>UCN</game>
+            <game>UCN Deluxe</game>
+            <game>UCN: Recode</game>
+        </games>
+        <title>The UCN Gauntlet</title>
+        <image>img/tug.jpeg</image>
+        <stats>
+            <hours>~10</hours>
+        </stats>
+        <description>Beating the main maxmodes of UCN, UCN Deluxe and UCN: Recode in a row, deathless.</description>
+        <tags>
+            <tag>strategy</tag>
+            <tag>speed</tag>
+            <tag>brain</tag>
+            <tag>aim</tag>
+            <tag>keyboard</tag>
+            <tag>endurance</tag>
+        </tags>
+    </mode>
+</riskModesList>
