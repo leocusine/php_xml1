@@ -3,7 +3,7 @@ header("Content-Type: application/xml; charset=UTF-8");
 
 libxml_use_internal_errors(true);
 
-$xml = simplexml_load_file("info.xml");
+$xml = simplexml_load_file("xml/info.xml");
 
 if ($xml === false) {
     echo "No se ha podido cargar el XML.";
@@ -82,6 +82,7 @@ if ($xml === false) {
 // }
 
 /////////////////////////////////////////////////
+// git push origin main para guardar archivos , php -S 0.0.0.0:8000 para publicar web 
 
 $t_xml = file_get_contents("info.xml");
 
