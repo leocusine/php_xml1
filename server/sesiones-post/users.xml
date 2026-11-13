@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <dni>1234</dni>
+    <name>sdgsdg</name>
+    <last_name>sdfsdf</last_name>
+    <age>324</age>
+    <password>456</password>
+  </user>
+</users>

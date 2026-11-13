@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+  <connection>
+    <dni>aureT12</dni>
+    <login_time>2026-11-03 15:14:15</login_time>
+    <logout_time>2026-11-03 15:14:33</logout_time>
+    <status>expired</status>
+  </connection>
+  <connection>
+    <dni>aureT12</dni>
+    <login_time>2026-11-03 15:14:47</login_time>
+    <logout_time>2026-11-03 15:14:58</logout_time>
+    <status>expired</status>
+  </connection>
+  <connection>
+    <dni>1234</dni>
+    <login_time>2026-11-03 15:38:45</login_time>
+    <logout_time>2026-11-03 15:38:49</logout_time>
+    <status>expired</status>
+  </connection>
+  <connection>
+    <dni>1234</dni>
+    <login_time>2026-11-03 15:42:36</login_time>
+    <logout_time>2026-11-03 15:44:57</logout_time>
+    <status>expired</status>
+  </connection>
+</connections>

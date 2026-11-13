@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+  <connection id="">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:43:26</login_time>
+    <logout_time>2026-11-03 17:43:48</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="2">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:45:13</login_time>
+    <logout_time>2026-11-03 17:45:28</logout_time>
+    <total_loged_time>0</total_loged_time>
+    <status>expired</status>
+  </connection>
+  <connection id="3">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:46:29</login_time>
+    <logout_time>2026-11-03 17:46:37</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="4">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:47:38</login_time>
+    <logout_time>2026-11-03 17:47:43</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="5">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:48:42</login_time>
+    <logout_time>2026-11-03 17:48:49</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="6">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:49:17</login_time>
+    <logout_time>2026-11-03 17:49:23</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="7">
+    <dni>111</dni>
+    <login_time>2026-11-03 17:52:00</login_time>
+    <logout_time>2026-11-03 17:52:57</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="8">
+    <dni>111</dni>
+    <login_time>2026-11-03 18:44:31</login_time>
+    <logout_time>2026-11-03 18:44:39</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+  <connection id="9">
+    <dni>111</dni>
+    <login_time>2026-11-03 18:44:53</login_time>
+    <logout_time>2026-11-03 18:45:17</logout_time>
+    <total_loged_time/>
+    <status>expired</status>
+  </connection>
+</connections>

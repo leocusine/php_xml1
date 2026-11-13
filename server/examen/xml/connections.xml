@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+  <connection id="1">
+    <dni>5020</dni>
+    <login_time>2026-11-13 17:00:35</login_time>
+    <logout_time>2026-11-13 17:00:51</logout_time>
+    <status>expired</status>
+  </connection>
+  <connection id="2">
+    <dni>5020</dni>
+    <login_time>2026-11-13 17:03:23</login_time>
+    <logout_time>2026-11-13 17:03:28</logout_time>
+    <status>expired</status>
+  </connection>
+</connections>

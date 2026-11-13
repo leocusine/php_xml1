@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <dni>z1</dni>
+    <name>zoink</name>
+    <last_name>zoink</last_name>
+    <age>2</age>
+    <password>123</password>
+  </user>
+  <user>
+    <dni>aureT12</dni>
+    <name>aure</name>
+    <last_name>perez</last_name>
+    <age>30</age>
+    <password>aureliano1234</password>
+  </user>
+  <user>
+    <dni>risk000</dni>
+    <name>risk</name>
+    <last_name>ksir</last_name>
+    <age>18</age>
+    <password>123</password>
+</users>

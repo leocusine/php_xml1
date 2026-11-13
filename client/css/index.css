@@ -1,0 +1,86 @@
+
+
+
+
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #444;
+    margin: 0;
+    padding: 40px;
+}
+
+.mi-div {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.ruleheight{
+    height: 100px;
+
+}
+
+
+/* Contenedor principal */
+
+.contenedor {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Título */
+
+h1 {
+    text-align: center;
+}
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Campo de texto */
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Checkbox */
+
+.condiciones {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    input {
+        accent-color: green;
+    }
+}
+
+/* Botón */
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

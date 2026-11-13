@@ -1,18 +1,19 @@
 <?php
 header("Content-Type: application/xml; charset=UTF-8");
 
-$read = file_get_contents("xml/rml.xml");
-$xml = new SimpleXMLElement($read);
-$result = $xml->xpath('//mode[1]/title | //mode[2]/title');
+// $read = file_get_contents("xml/rml.xml");
+// $xml = new SimpleXMLElement($read);
+$xml = simplexml_load_file("xml/rml.xml");
+// $result = $xml->xpath('//mode[1]/title | //mode[2]/title');
 
-$message = new SimpleXMLElement('<message/>');
+// $message = new SimpleXMLElement('<message/>');
 
-foreach ($result as $title) {
-    $message->addChild(
-        'title',
-        htmlspecialchars((string)$title, ENT_XML1, 'UTF-8')
-    );
-}
+// foreach ($result as $title) {
+//     $message->addChild(
+//         'title',
+//         htmlspecialchars((string)$title, ENT_XML1, 'UTF-8')
+//     );
+// }
 
 // echo $message->asXML();
 
@@ -122,6 +123,17 @@ foreach ($result as $title) {
 
 // 8 Selecciona el segundo tag del tercer modo.
 
-$result = $xml->xpath('//mode[3]/tags/tag[2]');
+// $result = $xml->xpath('//mode[3]/tags/tag[2]');
 
-echo $result[0]->asXML();
+// echo $result[0]->asXML();
+
+// 9 Guardar un modo en un archivo.
+
+// $result = $xml->xpath('//mode[6]');
+
+// $dom = new DOMDocument('1.0');
+// $dom->formatOutput = true;
+// $dom->loadXML($result[0]->asXML());
+// $dom->save('xml/fgvhm.xml');
+
+echo $xml[0]->asXML();
